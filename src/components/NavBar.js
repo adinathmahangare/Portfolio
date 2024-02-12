@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from './Logo'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { TwitterIcon, GithubIcon, LinkedInIcon, PinterestIcon, DribbbleIcon } from './Icons'
+import { TwitterIcon, GithubIcon, LinkedInIcon, HackerRank, Instagram } from './Icons'
 import { motion } from 'framer-motion'
 
 const CustomLink = ({href, title, className=""})=>{
@@ -10,7 +10,7 @@ const CustomLink = ({href, title, className=""})=>{
     return (
         <Link href = {href} className={`${className}  relative group`}>
             {title}
-        <span className = {`h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] eae duration-300 ${router.asPath === href ? 'w-full' : 'w-0'}`}>&nbsp;</span>
+        <span className = {`h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${router.asPath === href ? 'w-full' : 'w-0'}`}>&nbsp;</span>
 
         </Link>
     )
@@ -42,21 +42,22 @@ const NavBar = () => {
                 whileTap={{scale:0.9}}
                 className='w-6 mx-3'
                 ><GithubIcon /></motion.a>
+                <motion.a href="https://instagram.com" target={'_blank'}
+                whileHover={{y:-2}} 
+                whileTap={{scale:0.9}}
+                className='w-7 mx-3'
+                ><Instagram /></motion.a>
                 <motion.a href="https://linkedin.com" target={'_blank'}
                 whileHover={{y:-2}} 
                 whileTap={{scale:0.9}}
                 className='w-6 mx-3'
                 ><LinkedInIcon /></motion.a>
-                <motion.a href="https://twitter.com" target={'_blank'}
-                whileHover={{y:-2}} 
-                whileTap={{scale:0.9}}
-                className='w-6 mx-3'
-                ><PinterestIcon /></motion.a>
-                <motion.a href="https://twitter.com" target={'_blank'}
+                <motion.a href="https://hackerrank.com" target={'_blank'}
                 whileHover={{y:-2}} 
                 whileTap={{scale:0.9}}
                 className='w-6 ml-3'
-                ><DribbbleIcon /></motion.a>
+                ><HackerRank /></motion.a>
+                
 
             </nav>
 
