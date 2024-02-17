@@ -98,7 +98,6 @@ export const HackerRank = ({ className, ...rest }) => (
     xmlns="http://www.w3.org/2000/svg"
     width="2500"
     height="2500"
-    rx="10" ry="10"
     viewBox="0 0 225 225"
     {...rest}
     className={`w-full h-auto ${className}`}
