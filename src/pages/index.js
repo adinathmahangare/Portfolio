@@ -1,8 +1,8 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/developer-pic-1.png"
-
+import profilePic from "../../public/images/profile/profile-5.png"
+import AnimatedText from '@/components/AnimatedText'
 
 export default function Home() {
   return (
@@ -18,13 +18,14 @@ export default function Home() {
 
             <div className = "flex items-center justify-between w-full">
               <div className='w-1/2'>
-                <Image src={profilePic} alt="Adinath" className='w-full h-auto'/>
+                <Image src={profilePic} alt="Adinath" className='w-full h-auto pb-5 pr-10'/>
               </div>
-              <div className='w-1/2'>
-                <h1>Turning Vision Into Reality With Code And Design.</h1>
+              <div className='w-1/2 flex flex-col items-center self-center'>
+                
+                <AnimatedText text = "Beyond code,           I solve problems." className = '!text-6xl !text-left '/>
+
                   <p>
-                    As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-                    Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+                  With C/C++, Python, React.js, and SQL in my arsenal, I'm more than just a coder. Dive in my Next.js portfolio, where logic and data structures dance with object-oriented design to create beautiful, functional solutions. Let's collaborate and turn challenges into opportunities.
                   </p>
                 
               </div>

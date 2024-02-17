@@ -32,27 +32,27 @@ const NavBar = () => {
                 
             </nav>
             <nav className='flex item-center justify-center flex-wrap'>
-                <motion.a href="https://twitter.com" target={'_blank'}
+                <motion.a href="https://twitter.com/adimahangare" target={'_blank'}
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}} 
                 className='w-6 mr-3'
                 ><TwitterIcon /></motion.a>
-                <motion.a href="https://github.com" target={'_blank'}
+                <motion.a href="https://github.com/adinathmahangare" target={'_blank'}
                 whileHover={{y:-2}} 
                 whileTap={{scale:0.9}}
                 className='w-6 mx-3'
                 ><GithubIcon /></motion.a>
-                <motion.a href="https://instagram.com" target={'_blank'}
+                <motion.a href="https://instagram.com/_ad.914" target={'_blank'}
                 whileHover={{y:-2}} 
                 whileTap={{scale:0.9}}
                 className='w-7 mx-3'
                 ><Instagram /></motion.a>
-                <motion.a href="https://linkedin.com" target={'_blank'}
+                <motion.a href="https://linkedin.com/in/adinath-mahangare-0b211b1b8" target={'_blank'}
                 whileHover={{y:-2}} 
                 whileTap={{scale:0.9}}
                 className='w-6 mx-3'
                 ><LinkedInIcon /></motion.a>
-                <motion.a href="https://hackerrank.com" target={'_blank'}
+                <motion.a href="https://www.hackerrank.com/profile/adimahangare914" target={'_blank'}
                 whileHover={{y:-2}} 
                 whileTap={{scale:0.9}}
                 className='w-6 ml-3'
