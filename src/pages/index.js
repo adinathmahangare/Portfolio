@@ -27,7 +27,7 @@ export default function Home() {
                 <AnimatedText text = "Beyond code,           I solve problems." className = '!text-6xl !text-left '/>
 
                   <p className='my-4 text-base font-medium'>
-                  With C/C++, Python, React.js, and SQL in my arsenal, I'm more than just a coder. Dive in my Next.js portfolio, where logic and data structures dance with object-oriented design to create beautiful, functional solutions. Let's collaborate and turn challenges into opportunities.
+                  With C/C++, Python, React.js, and SQL in my arsenal, I'm more than just a coder. Dive in my Next.js portfolio, where logic and data structures integrate seamlessly with object-oriented design to create beautiful, functional solutions. Let's collaborate and turn challenges into opportunities.
                   </p>
                   <div className='flex items-center self-start mt-2'>
                     <Link href = "/dummy.pdf" target = {"_blank"}
