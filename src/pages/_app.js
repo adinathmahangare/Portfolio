@@ -12,8 +12,10 @@ const montserrat = Montserrat({
 export default function MyApp({ Component, pageProps }) {
   return (
     <><Head>
+      <title>Adinath Mahangare | Portfolio</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        
     </Head>
     <main className={`${montserrat.variable} font-mont bg-light w-full min-h-screen` }>
       <NavBar />
