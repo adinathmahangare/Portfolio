@@ -5,6 +5,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import project3 from "../../public/images/projects/WFD3.png"
 import Image from 'next/image'
 
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
@@ -115,12 +116,12 @@ const projects = () => {
 
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                        title="Crypto Screener Application"
+                        title="Weather Forecast Dashboard"
                         summary = "A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                        link ="/"
-                        type = "Featured Project"
-                        img = {project1}
-                        github = "/"
+                        link ="https://adinathmahangare.github.io/Weather-Forecast-Dashboard/"
+                        type = "Simple Website"
+                        img = {project3}
+                        github = "https://github.com/adinathmahangare/Weather-Forecast-Dashboard"
                         />
 
                     </div>
