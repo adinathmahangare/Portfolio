@@ -4,9 +4,10 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Link from 'next/link'
 import React from 'react'
-import project1 from "../../public/images/projects/HCS.png"
-import project3 from "../../public/images/projects/WFD.png"
-import project2 from "../../public/images/projects/FCA.png"
+import project1 from "../../public/images/projects/HCS4.png"
+import project3 from "../../public/images/projects/WFD2.png"
+import project2 from "../../public/images/projects/FCA2.png"
+import project4 from "../../public/images/projects/OES2.png"
 import Image from 'next/image'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -131,11 +132,11 @@ const projects = () => {
 
                     <div className='col-span-12'>
                         <FeaturedProject 
-                        title="Crypto Screener Application"
-                        summary = "A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                        title="Online Examination System"
+                        summary = "a comprehensive System tailored for educational institutions and businesses, the system offers a seamless platform for creating, managing, and conducting online exams."
                         link ="/"
                         type = "Featured Project"
-                        img = {project1}
+                        img = {project4}
                         github = "/"
                         />
 

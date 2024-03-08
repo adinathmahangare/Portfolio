@@ -1,3 +1,4 @@
+import FloatingNavigation from '@/components/FloatingNavigation'
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 import '@/styles/globals.css'
@@ -25,7 +26,7 @@ export default function MyApp({ Component, pageProps }) {
       <AnimatePresence mode="wait">
         <Component key = {router.asPath} {...pageProps} />
       </AnimatePresence>
-      
+      <FloatingNavigation/>
       <Footer />
     </main>
     </>
