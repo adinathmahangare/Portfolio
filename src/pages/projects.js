@@ -26,7 +26,7 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
                         {type}
                 </span>
 
-                <Link href = {link} target = '_blank' className='hover:underline underline-offset-2 decoration-4'>
+                <Link href = {github} target = '_blank' className='hover:underline underline-offset-2 decoration-4'>
                     <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm'>
                         {title}
                     </h2>
@@ -39,7 +39,7 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
                 <div className='mt-2 flex items-center '>
                     <Link href = {github} target = '_blank' className='w-10'><GithubIcon /></Link>
                     <Link href = {link} target='_blank' className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base'>
-                        Visit Project
+                        Visit Demo
                     </Link>
                 </div>
             </div>
@@ -99,7 +99,7 @@ const projects = () => {
                         <FeaturedProject 
                         title="Smart Healthcare System"
                         summary = "A web-based system bridges the gap between local clinicians and hospital chains by securely storing and sharing the comprehensive medical history of every patient."
-                        link ="/"
+                        link ="https://youtu.be/S2JqewKXU20"
                         type = "Featured Project"
                         img = {project1}
                         github = "https://github.com/adinathmahangare/Final_Year_Project"
@@ -134,10 +134,10 @@ const projects = () => {
                         <FeaturedProject 
                         title="Online Examination System"
                         summary = "a comprehensive System tailored for educational institutions and businesses, the system offers a seamless platform for creating, managing, and conducting online exams."
-                        link ="/"
+                        link ="https://youtu.be/-o4BCBXM5Ac"
                         type = "Featured Project"
                         img = {project4}
-                        github = "/"
+                        github = "https://github.com/adinathmahangare/Online-Examination-System"
                         />
 
                     </div>

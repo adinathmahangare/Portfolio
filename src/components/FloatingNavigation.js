@@ -13,14 +13,12 @@ const CustomLink = ({ href, title, className, index }) => {
     const [colorIndex, setColorIndex] = useState(index % colors.length);
 
     useEffect(() => {
-        // Function to update color index and loop through colors array
         const intervalId = setInterval(() => {
-            setColorIndex((prevIndex) => (prevIndex + 1) % colors.length);
-        }, duration * 1000); // Convert duration to milliseconds
+        setColorIndex((prevIndex) => (prevIndex + 1) % colors.length);
+        }, duration * 1000);
 
-        // Clear interval on component unmount
         return () => clearInterval(intervalId);
-    }, []); // Run only once on component mount
+    }, [colors.length]); // Added colors.length to the dependency array
 
     return (
         <Link href={href}
@@ -30,19 +28,19 @@ const CustomLink = ({ href, title, className, index }) => {
                 transition: '0.8s background-color', // Add transition duration
             }}
         >
-            {title}
+        {title}
         </Link>
     );
 };
 
 const FloatingNavigation = () => {
     return (
-        <motion.div className='relative bottom-2 left-0 right-0  p-4 flex justify-around items-center'>
-            <nav className='hidden xs:flex flex-row space-x-6'>
-                <CustomLink href="/" title="Home" index={0} />
-                <CustomLink href="/about" title="About" index={1} />
-                <CustomLink href="/projects" title="Projects" index={2} />
-            </nav>
+        <motion.div className='relative bottom-2 left-0 right-0  p-4 flex justify-around items-center'>
+        <nav className='hidden xs:flex flex-row space-x-6'>
+            <CustomLink href="/" title="Home" index={0} />
+            <CustomLink href="/about" title="About" index={1} />
+            <CustomLink href="/projects" title="Projects" index={2} />
+        </nav>
         </motion.div>
     );
 };

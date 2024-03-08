@@ -52,9 +52,9 @@ const about = () => {
                         <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/50'>Biography</h2>
                         <p className='font-medium '>Hello, I’m <b>Adinath Mahangare</b>, a software developer and machine learning enthusiast with a passion for creating innovative, intelligent, and user-friendly digital solutions. I am always eager to learn new skills and technologies to enhance my capabilities.</p>
 
-                        <p className='font-medium my-4'>I believe that software development is about more than just writing code – it’s about solving problems and creating impactful, meaningful experiences for users. I have worked on various projects involving web development, mobile development, data science, natural language processing, computer vision, and deep learning. I have used a range of tools and frameworks such as Python, C++, Django, Flask, React, NextJS, Firebase, Tailwind, SQL, Git and Linux.</p> 
+                        <p className='font-medium my-4'>I believe that software development is about more than just writing code – it’s about solving problems and creating impactful, meaningful experiences for users. I have worked on various projects involving web development, data science, natural language processing. I have used a range of tools and frameworks such as Python, C++, Django, Flask, React, NextJS, Firebase, Tailwind, SQL, Git and Linux.</p> 
 
-                        <p className='font-medium '>Whether I’m working on a web app, a mobile app, or a data science project, I bring my dedication to excellence and user-centric thinking to every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.</p>
+                        <p className='font-medium '>Whether I’m working on a web app, a DSA code, or a data science project, I bring my dedication to excellence and user-centric thinking to every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.</p>
                     </div>
                     <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:border-light dark:bg-dark
                     xl:col-span-4 md:order-1 md:col-span-9'>
