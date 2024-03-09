@@ -128,40 +128,41 @@ const NavBar = () => {
                 </nav>
                 <nav className='flex item-center justify-center flex-wrap mt-3'>
 
+
+                    <motion.a href="https://www.hackerrank.com/profile/adimahangare914" target={'_blank'}
+                    whileHover={{y:-2}} 
+                    whileTap={{scale:0.9}}
+                    className='w-7 mx-3 sm:mr-2'
+                    ><HackerRank /></motion.a>
+
                     <motion.a href="https://twitter.com/adimahangare" target={'_blank'}
                     whileHover={{y:-2}}
                     whileTap={{scale:0.9}} 
-                    className='w-7 mr-3 sm:mr-1'
+                    className='w-7 mr-3 sm:mx-2'
                     ><TwitterIcon /></motion.a>
 
                     <motion.a href="https://github.com/adinathmahangare" target={'_blank'}
                     whileHover={{y:-2}} 
                     whileTap={{scale:0.9}}
-                    className='w-7 mx-3 bg-light dark:bg-dark rounded-full !mb-1.5 sm:mx-1'
+                    className='w-7 mx-3 bg-light dark:bg-dark rounded-full !mb-1.5 sm:mx-2'
                     ><GithubIcon /></motion.a>
 
                     <motion.a href="https://linkedin.com/in/adinath-mahangare-0b211b1b8" target={'_blank'}
                     whileHover={{y:-2}} 
                     whileTap={{scale:0.9}}
-                    className='w-6 mx-3 !mt-0.5 sm:mx-1'
+                    className='w-6 mx-3 !mt-0.5 sm:mx-2'
                     ><LinkedInIcon /></motion.a>
-
-                    <motion.a href="https://www.hackerrank.com/profile/adimahangare914" target={'_blank'}
-                    whileHover={{y:-2}} 
-                    whileTap={{scale:0.9}}
-                    className='w-8 mx-3 sm:mx-1'
-                    ><HackerRank /></motion.a>
 
                     <motion.a href="https://instagram.com/_ad.914" target={'_blank'}
                     whileHover={{y:-2}} 
                     whileTap={{scale:0.9}}
-                    className='w-7 mx-2 bg-pink-600  rounded-full !mb-1.5 sm:mx-1'
+                    className='w-7 h-7 mx-2 bg-pink-600  rounded-full !mb-1.0 sm:mx-2'
                     ><Instagram /></motion.a>
                     
     
                     <button
                     onClick={()=>setMode(mode === "light" ? "dark" : "light")}
-                    className={`ml-3 flex items-center justify-center rounded-full p-1 sm:ml-1 ${mode === "light" ? "bg-dark text-light":"bg-light text-dark" }`}>
+                    className={`w-7 h-7 ml-3 flex items-center justify-center rounded-full p-1 sm:ml-2 ${mode === "light" ? "bg-dark text-light":"bg-light text-dark" }`}>
                         {
                             mode === "dark" ?
                             <SunIcon className={"fill-dark"}/>

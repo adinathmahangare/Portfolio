@@ -32,17 +32,17 @@ const Skills = () => {
                 SDE
             </motion.div>
             <Skill name = "CSS" x = "-5vw" y = "-10vw" />
-            <Skill name = "HTML" x = "-20vw" y = "2vw" />
+            <Skill name = "HTML" x = "0vw" y = "22vw" />
             <Skill name = "ReactJS" x = "23vw" y = "6vw" />
             <Skill name = "C++" x = "0vw" y = "10vw" />
             <Skill name = "Python" x = "-20vw" y = "-15vw" />
             <Skill name = "NextJS" x = "15vw" y = "-12vw" />
             <Skill name = "SQL" x = "32vw" y = "-5vw" />
             <Skill name = "Tailwind" x = "0vw" y = "-21vw" />
-            <Skill name = "Git" x = "-22vw" y = "18vw" />
+            <Skill name = "Git" x = "-25vw" y = "15vw" />
             <Skill name = "Linux" x = "18vw" y = "18vw" />
-            <Skill name = "Flask" x = "-20vw" y = "2vw" />
-            <Skill name = "Firebase" x = "-38vw" y = "2vw" />
+            <Skill name = "Flask" x = "-18vw" y = "2vw" />
+            <Skill name = "Firebase" x = "-38vw" y = "-5vw" />
 
         </div>
 
